@@ -1,0 +1,30 @@
+.app-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .main-content {
+    flex: 1;
+    padding: 20px;
+    background-color: var(--background-color);
+  }
+  
+  .footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: var(--primary-color);
+    color: #fff;
+    font-size: 0.9rem;
+  }
+  
+  .footer a {
+    color: #fff;
+    font-weight: bold;
+    transition: var(--transition);
+  }
+  
+  .footer a:hover {
+    color: var(--secondary-color);
+  }
+  
